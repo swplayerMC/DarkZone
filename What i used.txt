@@ -1,0 +1,11 @@
+Apps used:
+Pixel Studio (Mobile pixel art editor)
+Paint.net (its very used by texture pack creators on PC)
+Visual Studio Code (literaly the best code editor... in my opinion)
+Acode (Coding app like VS Code but on mobile... or kind of)
+ZArchiver
+Shizuku (i used it to be able to navigate in com.mojang folder on my phone)
+Grok (was a very useful tool, i learned a lot of things with it... it's an A.I.)
+Termux (to use GitHub on mobile)
+PhotoShop (the pack icon image and the overworld cubemap were made with it)
+And of course, Minecraft

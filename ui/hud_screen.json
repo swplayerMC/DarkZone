@@ -1,0 +1,37 @@
+{
+	"namespace": "hud",
+
+	"cursor_renderer": {
+    	"ignored": true //Desativa o cursor do jogo para podermos usar o nosso (deve ser melhor apenas colocar um "crosshair.png" totalmente transparente na pasta "textures/ui")
+  	},
+
+	// Desativando os elementos do chat padrão (o chat na HUD, não a tela do chat em si)
+	"chat_label": {
+		"ignored": true
+	},
+
+	"chat_grid_item": {
+		"ignored": true
+	},
+
+	"chat_panel": {
+		"ignored": true
+	},
+
+	"root_panel": {
+		"modifications": [
+			{
+				"array_name": "controls", //Adiciona os itens da lista "value" abaixo, na lista "controls" do objeto "hud_content" do arquivo "hud_screen.json" sem alterar nada no vanilla
+				"operation": "insert_front", //Isso faz ele adicionar ao topo da lista
+				"value": [ //O que ele adiciona:
+					{
+						"crosshair@DZ_crosshair.crosshair_image": {}
+					},
+					{
+						"custom_chat@DZ_java_chat.custom_chat": {}
+					}
+				]
+			}
+		]
+	}
+}

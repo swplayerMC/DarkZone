@@ -1,0 +1,49 @@
+{
+    "format_version": "1.17.30",
+    "animation_controllers": {
+        "controller.animation.genfx.vfx": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "combo_recovery": "variable.dash_para_frente > 0.0"
+                        }
+                    ]
+                },
+                "combo_recovery": {
+                    "animations": [
+                        "combo_recovery"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "query.any_animation_finished"
+                        }
+                    ]
+                }
+            }
+        },
+        "controller.animation.genfx.sfx": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "hurt_test": "variable.tomou_dano > 0.0"
+                        }
+                    ]
+                },
+                "hurt_test": {
+                    "animations": [
+                        "hurt_test"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "query.any_animation_finished"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

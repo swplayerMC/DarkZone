@@ -1,0 +1,12 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.genfx.sfx.hurt_test": {
+            "sound_effects": {
+                "0.0": {
+                    "effect": "teste"
+                }
+            }
+        }
+    }
+}

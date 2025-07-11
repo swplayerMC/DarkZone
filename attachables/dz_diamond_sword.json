@@ -1,0 +1,44 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "minecraft:diamond_sword",
+            "materials": {
+                "default": "entity_alphablend",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "DZ_textures/models/sword_diamond",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.dz_diamond_sword"
+            },
+            "animations": {
+                "root": "controller.animation.DZ_diamond_sword",
+                "hold_firstp": "animation.DZ_sword.1p",
+                "hold_thirdp": "animation.DZ_sword.3p",
+                "set_up": "animation.DZ_sword.set_up"
+            },
+            "scripts": {
+                //"initialize": [],
+                //"pre_animation": [],
+                "animate": [
+                    "root",
+                    {
+                        "set_up": "q.item_slot_to_bone_name(c.item_slot)"
+                    }
+                ]
+            },
+            "render_controllers": [
+                // {
+                //     "controller.render.dz_diamond_sword.start_up": "v.start_up"
+                // },
+                // {
+                //     "controller.render.dz_diamond_sword.started": "!v.start_up"
+                // }
+                "controller.render.item_default"
+            ]
+        }
+    }
+}

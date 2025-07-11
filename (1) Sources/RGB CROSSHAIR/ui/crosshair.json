@@ -1,0 +1,10 @@
+{
+ "namespace": "crosshair",
+
+  "heart": {
+    "type": "image",
+    "size": [ 9, 9 ],
+    "texture": "textures/crosshair/heart",
+    "color": "@rainbow.rgb_frames_01"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.genfx.vfx.combo_recovery": {
+            "particle_effects": {
+                "0.0": {
+                    "effect": "rings"
+                }
+            }
+        },
+        "animation.genfx.projectiles": {
+            "bones": {
+                "main": {
+                    "rotation": [
+                        "query.camera_rotation(0)",
+                        "query.camera_rotation(1)",
+                        0.0
+                    ]
+                }
+            }
+        }
+    }
+}

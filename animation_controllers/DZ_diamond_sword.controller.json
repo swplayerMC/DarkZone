@@ -1,0 +1,26 @@
+{
+	"format_version": "1.17.30",
+	"animation_controllers": {
+		"controller.animation.DZ_diamond_sword": {
+			"initial_state": "hold_firstp",
+			"states": {
+				"hold_firstp": {
+					"animations": [
+						{"hold_firstp": "context.is_first_person"}
+					],
+					"transitions": [
+						{"hold_thirdp": "!c.is_first_person"}
+					]
+				},
+				"hold_thirdp": {
+					"animations": [
+						{"hold_thirdp": "!context.is_first_person"}
+					],
+					"transitions": [
+						{"hold_firstp": "c.is_first_person"}
+					]
+				}
+			}
+		}
+	}
+}

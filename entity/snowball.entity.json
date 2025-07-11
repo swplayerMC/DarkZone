@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:snowball",
+            "materials": {
+                "default": "entity_alphablend"
+            },
+            "textures": {
+                "default": "DZ_textures/models/snowball"
+            },
+            "geometry": {
+                "default": "geometry.darkzone_snowball"
+            },
+            "animations": {
+                "flying": "animation.genfx.projectiles"
+            },
+            "scripts": {
+                "animate": [
+                    "flying"
+                ]
+            },
+            "render_controllers": [
+                "controller.render.item_sprite"
+            ]
+        }
+    }
+}

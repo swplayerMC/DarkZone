@@ -1,0 +1,7 @@
+{
+    "namespace": "chat",
+
+    "chat_background": {
+        "alpha": 0.1  //Just makes the chat screen background transparent (there's already an option in-game to do it)
+    }
+}

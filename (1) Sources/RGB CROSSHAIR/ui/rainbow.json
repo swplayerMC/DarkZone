@@ -1,0 +1,330 @@
+{
+    "namespace": "rainbow",
+    
+    "rgb_template": {
+     "anim_type": "color",
+     "duration": 0.05,
+     "from": "$color_value",
+     "to": "$color_value"
+    },
+    "rgb_frames_01@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      1,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_02"
+    },
+    "rgb_frames_02@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      1,
+      0.9
+     ],
+     "next": "@rainbow.rgb_frames_03"
+    },
+    "rgb_frames_03@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      1,
+      0.8
+     ],
+     "next": "@rainbow.rgb_frames_04"
+    },
+    "rgb_frames_04@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      1,
+      0.7
+     ],
+     "next": "@rainbow.rgb_frames_05"
+    },
+    "rgb_frames_05@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      1,
+      0.6
+     ],
+     "next": "@rainbow.rgb_frames_06"
+    },
+    "rgb_frames_06@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      1,
+      0.5
+     ],
+     "next": "@rainbow.rgb_frames_07"
+    },
+    "rgb_frames_07@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      1,
+      0.4
+     ],
+     "next": "@rainbow.rgb_frames_08"
+    },
+    "rgb_frames_08@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      1,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_09"
+    },
+    "rgb_frames_09@rainbow.rgb_template": {
+     "$color_value": [
+      0.375,
+      1,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_10"
+    },
+    "rgb_frames_10@rainbow.rgb_template": {
+     "$color_value": [
+      0.5,
+      1,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_11"
+    },
+    "rgb_frames_11@rainbow.rgb_template": {
+     "$color_value": [
+      0.625,
+      1,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_12"
+    },
+    "rgb_frames_12@rainbow.rgb_template": {
+     "$color_value": [
+      0.75,
+      1,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_13"
+    },
+    "rgb_frames_13@rainbow.rgb_template": {
+     "$color_value": [
+      0.875,
+      1,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_14"
+    },
+    "rgb_frames_14@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      1,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_15"
+    },
+    "rgb_frames_15@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.9,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_16"
+    },
+    "rgb_frames_16@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.8,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_17"
+    },
+    "rgb_frames_17@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.7,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_18"
+    },
+    "rgb_frames_18@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.6,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_19"
+    },
+    "rgb_frames_19@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.5,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_20"
+    },
+    "rgb_frames_20@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.4,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_21"
+    },
+    "rgb_frames_21@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.25,
+      0.25
+     ],
+     "next": "@rainbow.rgb_frames_22"
+    },
+    "rgb_frames_22@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.25,
+      0.4
+     ],
+     "next": "@rainbow.rgb_frames_23"
+    },
+    "rgb_frames_23@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.25,
+      0.5
+     ],
+     "next": "@rainbow.rgb_frames_24"
+    },
+    "rgb_frames_24@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.25,
+      0.6
+     ],
+     "next": "@rainbow.rgb_frames_25"
+    },
+    "rgb_frames_25@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.25,
+      0.7
+     ],
+     "next": "@rainbow.rgb_frames_26"
+    },
+    "rgb_frames_26@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.25,
+      0.8
+     ],
+     "next": "@rainbow.rgb_frames_27"
+    },
+    "rgb_frames_27@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.25,
+      0.9
+     ],
+     "next": "@rainbow.rgb_frames_28"
+    },
+    "rgb_frames_28@rainbow.rgb_template": {
+     "$color_value": [
+      1,
+      0.25,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_29"
+    },
+    "rgb_frames_29@rainbow.rgb_template": {
+     "$color_value": [
+      0.875,
+      0.25,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_30"
+    },
+    "rgb_frames_30@rainbow.rgb_template": {
+     "$color_value": [
+      0.75,
+      0.25,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_31"
+    },
+    "rgb_frames_31@rainbow.rgb_template": {
+     "$color_value": [
+      0.625,
+      0.25,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_32"
+    },
+    "rgb_frames_32@rainbow.rgb_template": {
+     "$color_value": [
+      0.5,
+      0.25,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_33"
+    },
+    "rgb_frames_33@rainbow.rgb_template": {
+     "$color_value": [
+      0.375,
+      0.25,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_34"
+    },
+    "rgb_frames_34@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      0.25,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_35"
+    },
+    "rgb_frames_35@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      0.4,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_36"
+    },
+    "rgb_frames_36@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      0.5,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_37"
+    },
+    "rgb_frames_37@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      0.6,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_38"
+    },
+    "rgb_frames_38@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      0.7,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_39"
+    },
+    "rgb_frames_39@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      0.8,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_40"
+    },
+    "rgb_frames_40@rainbow.rgb_template": {
+     "$color_value": [
+      0.25,
+      0.9,
+      1
+     ],
+     "next": "@rainbow.rgb_frames_01"
+    }
+   }

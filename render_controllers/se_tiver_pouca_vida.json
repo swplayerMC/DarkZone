@@ -1,0 +1,61 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.pouca_vida_first": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.default"
+            ],
+            "part_visibility": [
+                {
+                    "*": false
+                },
+                {
+                    "rightArm": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'"
+                },
+                {
+                    "rightSleeve": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'"
+                },
+                {
+                    "leftArm": "(query.get_equipped_item_name(0, 1) == 'filled_map' && query.get_equipped_item_name('off_hand') != 'shield') || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged) || (!query.item_is_charged && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0))"
+                },
+                {
+                    "leftSleeve": "(query.get_equipped_item_name(0, 1) == 'filled_map' && query.get_equipped_item_name('off_hand') != 'shield') || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged) || (!query.item_is_charged && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0))"
+                }
+            ],
+            "overlay_color": {
+                "r": 1.0,
+                "g": 0.4,
+                "b": 0.6,
+                "a": 0.2
+            }
+        },
+        "controller.render.pouca_vida_third": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.default"
+            ],
+            "part_visibility": [
+                {
+                    "*": true
+                }
+            ],
+            "overlay_color": {
+                "r": 1.0,
+                "g": 0.4,
+                "b": 0.6,
+                "a": 0.2
+            }
+        }
+    }
+}

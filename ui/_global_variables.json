@@ -1,0 +1,133 @@
+{
+  /*         Custom          */
+  "$chat_item_lifetime": 5,
+  "$DZ_default_ui_color_red": 0.153,
+  "$DZ_default_ui_color_green": 0.153,
+  "$DZ_default_ui_color_blue": 0.176,
+  /*  Só podemos usar floats de 0.0 a 1.0 (que são os canais RGB, só que em escala de 0 a 1) E não há canal ALPHA aqui  */
+  "$DZ_default_ui_color_hovers_red": 0.169,
+  "$DZ_default_ui_color_hovers_green": 0.173,
+  "$DZ_default_ui_color_hovers_blue": 0.196,
+  // Some vanilla variables for colors: (the properties, not their value (almost everyone here is set to my custom variable above))
+  // Algumas variaveis do Minecraft vanilla (não os valores, mas sim as variaveis mesmo):
+  
+  //////// Text colors ////////
+  "$generic_button_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ], // for those times you find a button that's kind of used but shouldn't...
+
+// Uncomment the next line to use the default text color for buttons
+
+  // "$light_button_default_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$light_button_hover_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$light_button_pressed_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$light_button_locked_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  // "$light_toggle_default_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$light_toggle_hover_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$light_toggle_checked_default_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$light_toggle_checked_hover_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  // "$dark_button_default_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$dark_button_hover_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$dark_button_pressed_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$dark_button_locked_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  // "$dark_toggle_default_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$dark_toggle_hover_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$dark_toggle_checked_default_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$dark_toggle_checked_hover_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  // "$light_button_secondary_default_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$light_button_secondary_hover_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$light_button_secondary_pressed_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$light_button_secondary_locked_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  // "$dark_button_secondary_default_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$dark_button_secondary_hover_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$dark_button_secondary_pressed_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$dark_button_secondary_locked_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  // "$title_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$pocket_title_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  // "$main_header_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  // "$sub_header_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  "$item_stack_count_color": [ 1.0, 1.0, 1.0 ],
+  "$selected_item_stack_count_color": [ 1.0, 1.0, 1.0 ],
+
+  "$dark_grid_item_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  "$light_grid_item_text_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  // "$experience_text_color": "", planejo criar uma animação de cores cromáticas para o número de nível de XP
+  "$experience_text_color": [ 0.42, 0.82, 0.094 ], //Mas vou deixar assim por enquanto
+
+  //////// Border colors ////////
+  "$light_border_default_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  "$light_border_hover_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  "$light_border_pressed_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  "$light_border_locked_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  "$light_border_toggle_default_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  "$light_border_toggle_hover_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  "$dark_border_default_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  "$dark_border_hover_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  "$dark_border_pressed_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  "$dark_border_locked_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  "$dark_border_toggle_default_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  "$dark_border_toggle_hover_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  "$slider_default_border_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+  "$slider_hover_border_color": [ "$DZ_default_ui_color_red", "$DZ_default_ui_color_green", "$DZ_default_ui_color_blue" ],
+
+  // Color format codes: (those colors you get by typing the § simbol and a letter or number)
+  //It includes the new ones :D
+  /*    As cores que você pode usar digitando o simbolo § seguido dessas letras e números:    */
+  /*  Quase todos foram alterados para uma cor diferente da original  */
+  "$0_color_format": [ 0.0, 0.0, 0.0 ], // Black
+  "$1_color_format": [ 0.0, 0.0, 0.667 ], // Dark Blue
+  "$2_color_format": [ 0.0, 0.667, 0 ], // Dark Green
+  "$3_color_format": [ 0.0, 0.667, 0.667 ], // Dark Aqua
+  "$4_color_format": [ 0.667, 0.0, 0.0 ], // Dark Red
+  "$5_color_format": [ 0.667, 0.0, 0.667 ], // Dark Purple
+  "$6_color_format": [ 1.0, 0.667, 0.0 ], // Gold
+  "$7_color_format": [ 0.776, 0.776, 0.776 ], // Gray
+  "$8_color_format": [ 0.333, 0.333, 0.333 ], // Dark Gray
+  "$9_color_format": [ 0.333, 0.333, 1.0 ], // Blue
+  "$a_color_format": [ 0.333, 1.0, 0.333 ], // Green
+  "$b_color_format": [ 0.333, 1.0, 1.0 ], // Aqua
+  "$c_color_format": [ 1.0, 0.333, 0.333 ], // Red
+  "$d_color_format": [ 1.0, 0.333, 1.0 ], // Light Purple
+  "$e_color_format": [ 1.0, 1.0, 0.333 ], // Yellow
+  "$f_color_format": [ 1.0, 1.0, 1.0 ], // White
+  "$g_color_format": [  ],
+  "$h_color_format": [  ],
+  "$i_color_format": [  ],
+  "$j_color_format": [  ],
+  "$m_color_format": [  ],
+  "$n_color_format": [  ],
+  "$p_color_format": [  ],
+  "$q_color_format": [  ],
+  "$s_color_format": [  ],
+  "$t_color_format": [  ],
+  "$u_color_format": [  ],
+  "$v_color_format": [  ],
+
+  //There is a color format for the V letter (as i remember, and i like this color, it's a variation of orange)
+
+  //////// Transition times ////////
+  // The times for some animations, when you have "Video > Screen Animations" option turned on
+  "$transition_time_push": 0.1,
+  "$transition_time_pop": 0.1,
+  "$container_transition_time_push": 0.1,
+  "$container_transition_time_pop": 0.1,
+  "$loading_bar_transition": 3.0,
+
+  //////// Rarity colors ////////
+  "$rarity_common_bg_color": [ 0.43, 0.43, 0.43, 0.4 ],
+  "$rarity_uncommon_bg_color": [ 0.33, 0.66, 0.42, 0.4 ],
+  "$rarity_rare_bg_color": [ 0.10, 0.25, 0.61, 0.4 ],
+  "$rarity_epic_bg_color": [ 0.36, 0.18, 0.40, 0.4 ],
+  "$rarity_legendary_bg_color": [ 0.36, 0.32, 0.06, 0.4 ]
+}
