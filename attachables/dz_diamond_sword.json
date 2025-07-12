@@ -21,12 +21,17 @@
                 "set_up": "animation.DZ_sword.set_up"
             },
             "scripts": {
-                //"initialize": [],
-                //"pre_animation": [],
+                "initialize": [
+                    "v.dsword = 0;",
+                    "v.dsflash = 0;"
+                ],
+                "pre_animation": [
+                    "v.bhold = q.is_owner_identifier('minecraft:player') ? { v.dsword == 1; v.dsflash == 1 }"
+                ],
                 "animate": [
                     "root",
                     {
-                        "set_up": "q.item_slot_to_bone_name(c.item_slot)"
+                        "set_up": "v.bhold"
                     }
                 ]
             },
